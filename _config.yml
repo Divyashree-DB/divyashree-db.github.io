@@ -1,7 +1,9 @@
-title: "Divyashree Bidarahalli" 
-role: "Data Analyst and Business Intelligence Analyst"
+title: "Divyashree Bidarahalli <br> Data Analyst and Business Intelligence Analyst" 
 description: "Data Analyst | SQL | Power BI | Python | Tableau"
 theme: jekyll-theme-minimal
 header_pages:
   - _pages/projects.md
   - _pages/cv.md
+
+
+role: 
