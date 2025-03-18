@@ -1,9 +1,9 @@
 header img {
-    width: 120px;  /* Set width */
-    height: 120px; /* Maintain aspect ratio */
-    max-width: 10%; /* Prevent oversized image */
+    width: 220px;  /* Set width */
+    height: 220px; /* Maintain aspect ratio */
+    max-width: 30%; /* Prevent oversized image */
     display: block; /* Ensure proper alignment */
-    margin: 10px auto; /* Center image */
+    /*  margin: 10px auto; Center image */
     border-radius: 50%; /* Makes image circular */
     object-fit: cover; /* Crops and maintains shape */
 }
