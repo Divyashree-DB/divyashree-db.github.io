@@ -1,5 +1,9 @@
 .site-logo img {
-   
-    border-radius: 50%; /* Make it circular */
-
+    width: 120px;  /* Restrict size */
+    height: 120px; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevents oversized display */
+    display: block; /* Centers image */
+    margin: 10px auto; /* Adds spacing */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures proper cropping */
 }
