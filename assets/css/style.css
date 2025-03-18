@@ -1,6 +1,6 @@
 /*  Profile Image Styling */
 .site-logo img {
-    width: 120px;  /* Adjust the size */
+    width: 10px;  /* Adjust the size */
     height: 10px;
     border-radius: 50%; /* Make it circular */
     border: 3px solid #003366; /* Optional border */
