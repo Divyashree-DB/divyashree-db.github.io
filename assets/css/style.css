@@ -1,0 +1,9 @@
+/* 🌟 Profile Image Styling */
+.site-logo img {
+    width: 120px;  /* Adjust the size */
+    height: auto;
+    border-radius: 50%; /* Make it circular */
+    border: 3px solid #003366; /* Optional border */
+    display: block;
+    margin: 10px auto; /* Center the image */
+}
