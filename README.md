@@ -1,4 +1,4 @@
-# 🌟 Divyashree Damodar Bidarahalli – Data Analyst & BI Consultant  
+# 🌟 Data Analyst & BI Consultant  
 
 Welcome to my **Data Analytics & Business Intelligence Portfolio**! 🚀  
 I specialize in **SQL, Power BI, Tableau, and Python-based data analysis**, with experience in **data engineering, visualization, and cloud analytics**.
