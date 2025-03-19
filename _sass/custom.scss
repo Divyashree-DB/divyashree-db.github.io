@@ -1,8 +1,38 @@
+/* Dark Mode Background & Text Color */
 body {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #121212; /* Very dark gray background */
+    color: #e0e0e0; /* Light gray text for readability */
 }
+
+/* Header & Footer Styling */
 header, footer {
-    background-color: #222;
+    background-color: #1a1a1a; /* Slightly lighter dark gray */
     color: white;
+    padding: 10px 0;
+}
+
+/* Links */
+a {
+    color: #ffcc00; /* Bright yellow for contrast */
+}
+a:hover {
+    color: #ffaa00;
+    text-decoration: underline;
+}
+
+/* Reduce Logo Size */
+.logo {
+    max-width: 80px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center logo */
+}
+
+/* Adjust Navbar & Content for Dark Theme */
+.navbar {
+    background-color: #1a1a1a;
+}
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
 }
