@@ -11,13 +11,19 @@ header, footer {
     padding: 10px 0;
 }
 
-/* Reduce Logo Size */
+// Logo Styling
 .logo {
-    width: 10px;
-    height: 10px;
-    border-radius: 10%;
-    object-fit: cover;
+    max-width: 150px; /* Adjust this value as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out; /* Optional: adds a hover effect */
 }
+
+.logo:hover {
+    transform: scale(1.1); /* Optional: enlarge slightly on hover */
+}
+
 /* Links */
 a {
     color: #ffcc00; /* Bright yellow for contrast */
