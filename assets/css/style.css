@@ -1,16 +1,4 @@
-/* 🔥 Force Background Color */
-html, body {
-    background-color: #f8f9fa !important; /* Light Gray */
-    color: #333 !important; /* Dark Gray Text */
-    font-family: "Arial", sans-serif !important;
-}
-
-/* 🔥 Override Minimal Theme Background */
-.page {
-    background-color: #ffffff !important;
-    padding: 30px;
-    max-width: 800px;
-    margin: 50px auto;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+body {
+    background-color: #f8f9fa;
+    color: #333;
 }
