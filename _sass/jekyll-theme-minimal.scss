@@ -1,0 +1,34 @@
+@import "fonts";
+@import "rouge-github";
+
+/* 🌟 Update Background Color */
+body {
+  background-color: #f8f9fa !important; /* Light Gray */
+  color: #333 !important; /* Dark Gray Text */
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* 🌟 Keep Content Wrapper Styled */
+.wrapper {
+  width: 860px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌟 Make the Logo Smaller */
+header img {
+  width: 100px !important;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* 🌟 Footer */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
