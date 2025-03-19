@@ -11,6 +11,10 @@ header, footer {
     padding: 10px 0;
 }
 
+/* Reduce Logo Size */
+.logo {
+    max-width: 10px; /* Adjust the width */
+}
 /* Links */
 a {
     color: #ffcc00; /* Bright yellow for contrast */
