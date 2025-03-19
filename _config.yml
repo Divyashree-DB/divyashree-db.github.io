@@ -2,7 +2,9 @@ logo: "assets/images/divyabidarahalli@gmail.com_1.jpg"
 title: "Divyashree Bidarahalli" 
 description: "Data Analyst | SQL | Power BI | Python | Tableau"
 theme: jekyll-theme-minimal
-skin: custom
+sass:
+  load_paths:
+    - _sass
 header_pages:
   - _pages/projects.md
   - _pages/cv.md
