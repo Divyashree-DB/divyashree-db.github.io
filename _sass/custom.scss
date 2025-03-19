@@ -20,20 +20,43 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Force Logo to Be Very Small */
+/* Force Small Logo */
 .logo {
-    width: 12px !important;  /* Force width to 12px */
-    height: 12px !important; /* Force height to 12px */
-    display: block;
-    margin: 0 auto; /* Center logo */
-    overflow: hidden; /* Hide excess */
+    width: 10px !important;  /* Ensure fixed size */
+    height: 10px !important; 
+    display: flex !important;  /* Prevent block-level stretching */
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden !important; /* Prevent excess display */
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 auto !important; /* Center it */
 }
 
-/* Ensure Image Inside .logo Stays Small */
+/* Force Image Inside Logo to Stay Small */
 .logo img {
-    width: 12px !important;  /* Force width */
-    height: 12px !important; /* Force height */
-    object-fit: contain; /* Ensure it doesn’t stretch */
+    max-width: 10px !important;  /* Restrict width */
+    max-height: 10px !important; /* Restrict height */
+    width: auto !important;  /* Prevent stretching */
+    height: auto !important;
+    display: block !important;  /* Avoid inline behavior */
+    object-fit: contain !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+}
+
+/* Override Any Parent Container That Forces a Larger Size */
+.logo-container, .site-logo, .site-header .logo {
+    max-width: 10px !important;
+    max-height: 10px !important;
+    width: 10px !important;
+    height: 10px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 auto !important;
 }
 
 /* Adjust Navbar & Content for Dark Theme */
