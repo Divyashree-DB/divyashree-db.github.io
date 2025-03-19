@@ -13,7 +13,10 @@ header, footer {
 
 /* Reduce Logo Size */
 .logo {
-  border-radius: 10%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10%;
+    object-fit: cover;
 }
 /* Links */
 a {
