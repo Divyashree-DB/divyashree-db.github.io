@@ -20,44 +20,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Force Small Logo */
-.logo {
-    width: 10px !important;  /* Ensure fixed size */
-    height: 10px !important; 
-    display: flex !important;  /* Prevent block-level stretching */
-    justify-content: center; 
-    align-items: center;
-    overflow: hidden !important; /* Prevent excess display */
-    border: none !important;
-    padding: 0 !important;
-    margin: 0 auto !important; /* Center it */
-}
-
-/* Force Image Inside Logo to Stay Small */
-.logo img {
-    max-width: 10px !important;  /* Restrict width */
-    max-height: 10px !important; /* Restrict height */
-    width: auto !important;  /* Prevent stretching */
-    height: auto !important;
-    display: block !important;  /* Avoid inline behavior */
-    object-fit: contain !important;
-    padding: 0 !important;
-    margin: 0 auto !important;
-}
-
-/* Override Any Parent Container That Forces a Larger Size */
-.logo-container, .site-logo, .site-header .logo {
-    max-width: 10px !important;
-    max-height: 10px !important;
-    width: 10px !important;
-    height: 10px !important;
-    overflow: hidden !important;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    padding: 0 !important;
-    margin: 0 auto !important;
-}
 
 /* Adjust Navbar & Content for Dark Theme */
 .navbar {
