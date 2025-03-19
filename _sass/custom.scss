@@ -20,20 +20,22 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Make Logo Very Small (Fixed Width & Height) */
+/* Make Logo Extremely Small */
 .logo {
-    width: 30px;  /* Reduce width */
-    height: 30px; /* Reduce height */
+    width: 12px;  /* Adjusted to a very small size */
+    height: 12px;
     display: block;
-    margin: 0 auto; /* Center logo */
-    overflow: hidden; /* Prevent large images from stretching */
+    margin: 0 auto; /* Center the logo */
+    overflow: hidden; /* Prevents overflow issues */
 }
 
-/* Ensure Image Inside .logo Adjusts Properly */
+/* Ensure Image Inside .logo Scales Properly */
 .logo img {
-    width: 10%; /* Make sure the image fits inside */
-    height: 10%; /* Force image to match container size */
-    object-fit: contain; /* Ensure proper scaling */
+    width: auto; /* Maintain original aspect ratio */
+    height: auto; /* Maintain original aspect ratio */
+    max-width: 100%; /* Ensure it fits inside */
+    max-height: 100%; /* Ensure it doesn’t exceed container */
+    object-fit: scale-down; /* Ensures image fits without stretching */
 }
 
 /* Adjust Navbar & Content for Dark Theme */
