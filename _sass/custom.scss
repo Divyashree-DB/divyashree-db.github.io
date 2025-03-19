@@ -20,12 +20,20 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Reduce Logo Size */
+/* Make Logo Very Small (Fixed Width & Height) */
 .logo {
-    max-width: 80px; /* Adjust the width */
-    height: auto; /* Maintain aspect ratio */
+    width: 30px;  /* Reduce width */
+    height: 30px; /* Reduce height */
     display: block;
     margin: 0 auto; /* Center logo */
+    overflow: hidden; /* Prevent large images from stretching */
+}
+
+/* Ensure Image Inside .logo Adjusts Properly */
+.logo img {
+    width: 50%; /* Make sure the image fits inside */
+    height: 50%; /* Force image to match container size */
+    object-fit: contain; /* Ensure proper scaling */
 }
 
 /* Adjust Navbar & Content for Dark Theme */
