@@ -31,8 +31,8 @@ a:hover {
 
 /* Ensure Image Inside .logo Adjusts Properly */
 .logo img {
-    width: 50%; /* Make sure the image fits inside */
-    height: 50%; /* Force image to match container size */
+    width: 10%; /* Make sure the image fits inside */
+    height: 10%; /* Force image to match container size */
     object-fit: contain; /* Ensure proper scaling */
 }
 
