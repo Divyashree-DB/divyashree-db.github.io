@@ -6,3 +6,9 @@ skin: custom
 header_pages:
   - _pages/projects.md
   - _pages/cv.md
+style: |
+  <style>
+    body {
+      background-color: #f0f0f0;
+    }
+  </style>
